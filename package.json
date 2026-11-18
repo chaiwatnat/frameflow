@@ -1,0 +1,15 @@
+{
+  "name": "frameflow-comfyui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local image-to-video studio for the supplied MiniMax H3 ComfyUI workflow",
+  "scripts": {
+    "start": "node start.mjs",
+    "dev": "node start.mjs",
+    "test": "node --test test/app.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
